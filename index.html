@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>todos</title>
+</head>
+
+<body>
+    <main class="todos_artboard">
+        <header>
+            <H2>todos</H2>
+        </header>
+        <article class="functionality_page">
+
+            <section class="search_menu">
+                <button class="Select_all"></button>
+                <input type="text" placeholder="What need to be done?">
+            </section>
+
+            <section class="main_functions">
+                <ul>
+                    <li class="function">
+                        <input type="checkbox" class="checkbox_style" id="HTML" aria-label="Selected is HTML">
+                        <label for="HTML">HTML</label>
+                        <button class="cacel_selection"></button>
+                    </li>
+                    <li class="function">
+                        <input type="checkbox" class="checkbox_style" id="CSS" aria-label="Selected is CSS">
+                        <label for="CSS">CSS</label>
+                        <button class="cacel_selection"></button>
+                    </li>
+                    <li class="function">
+                        <input type="checkbox" class="checkbox_style" id="JS" aria-label="Selected is JS">
+                        <label for="JS">JS</label>
+                        <button class="cacel_selection"></button>
+                    </li>
+                    <li class="function">
+                        <input type="checkbox" class="checkbox_style" id="JS_TOOLS" aria-label="Selected is JS TOOLS">
+                        <label for="JS_TOOLS">JS_TOOLS</label>
+                        <button class="cacel_selection"></button>
+                    </li>
+                </ul>
+            </section>
+
+            <footer class="footer_todos">
+                <div class="left_footer">
+                    <span class="functions_remaining"> 3 items left</span>
+                </div>
+
+                <div class="middle_footer" role="radiogroup">
+                    <input type="radio" name="category" id="all" value="all" aria-label="Selected is All">
+                    <label for="all">All</label>
+
+                    <input type="radio" id="Acitve" name="category" value="Active" aria-label="Selected is Active">
+                    <label for="Acitve">Acitve</label>
+
+                    <input type="radio" name="category" id="Completed" value="all" aria-label="Selected is Completed">
+                    <label for="Completed">Completed</label>
+                </div>
+
+                <div class="clear_button">
+                    <input type="button" value="Clear Completed" aria-label="clear Completed">
+                    <label for="all">All</label>
+
+                </div>
+            </footer>
+        </article>
+    </main>
+</body>
+
+</html>
